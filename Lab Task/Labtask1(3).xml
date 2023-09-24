@@ -14,7 +14,7 @@
     </Information_table>
     <Information_table srl="2">
         <Name>Mark Zuckerburg</Name>
-        <ID>1</ID>
+        <ID>2</ID>
         <Address>
             <Flat>A/1</Flat>
             <House>20</House>
@@ -27,7 +27,7 @@
     </Information_table>
     <Information_table srl="3">
         <Name>Ala Voski</Name>
-        <ID>1</ID>
+        <ID>3</ID>
         <Address>
             <Flat> </Flat>
             <House>38</House>
