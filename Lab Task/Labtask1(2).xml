@@ -1,0 +1,18 @@
+<University_Information>
+    <Information_table sr="1">
+        <Name>John Carter</Name>
+        <SL_NO>23</SL_NO>
+        <Admission_Date>25/12/2015</Admission_Date>
+    </Information_table>
+    <Information_table sr="2">
+        <Name>Bob Marshal</Name>
+        <SL_NO>29</SL_NO>
+        <Admission_Date>13/01/1999</Admission_Date>
+    </Information_table>
+    <Information_table sr="3">
+        <Name>Clark Kent</Name>
+        <SL_NO>35</SL_NO>
+        <Admission_Date>17/06/2005</Admission_Date>
+    </Information_table>
+</University_Information>
+

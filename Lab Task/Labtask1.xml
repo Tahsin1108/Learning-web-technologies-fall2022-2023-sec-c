@@ -1,0 +1,24 @@
+<Phone_Information>
+    <Information_table sl="1">
+        <Name>Samsung</Name>
+        <ID>11</ID>
+        <Unit_Price>35000</Unit_Price>
+        <Stock>50</Stock>
+        <Status>1</Status>
+    </Information_table>
+    <Information_table sl="2">
+        <Name>HTC</Name>
+        <ID>20</ID>
+        <Unit_Price>65300</Unit_Price>
+        <Stock>35</Stock>
+        <Status>0</Status>
+    </Information_table>
+    <Information_table sl="3">
+        <Name>Nokia</Name>
+        <ID>23</ID>
+        <Unit_Price>25100</Unit_Price>
+        <Stock>100</Stock>
+        <Status>1</Status>
+    </Information_table>
+</Phone_Information>
+
