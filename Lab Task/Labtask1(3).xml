@@ -2,21 +2,39 @@
     <Information_table srl="1">
         <Name>John Doe</Name>
         <ID>1</ID>
-        <Address>H#38, R#3, Banani, Dhaka</Address>
+        <Address>
+            <Flat> </Flat>
+            <House>38</House>
+            <Road>03</Road>
+            <Location>Banani</Location>
+            <Area>Dhaka</Area>
+        </Address>
         <Department>Sales</Department>
         <Salary>20000</Salary>
     </Information_table>
     <Information_table srl="2">
         <Name>Mark Zuckerburg</Name>
         <ID>1</ID>
-        <Address>Flat#A/1, H#20, R#18, Mirpur, Dhaka</Address>
+        <Address>
+            <Flat>A/1</Flat>
+            <House>20</House>
+            <Road>18</Road>
+            <Location>Mirpur</Location>
+            <Area>Dhaka</Area>
+        </Address>
         <Department>Accounts</Department>
         <Salary>12000</Salary>
     </Information_table>
     <Information_table srl="3">
         <Name>Ala Voski</Name>
         <ID>1</ID>
-        <Address>H#38, R#3, Mothijheel</Address>
+        <Address>
+            <Flat> </Flat>
+            <House>38</House>
+            <Road>03</Road>
+            <Location>Mothijheel</Location>
+            <Area> </Area>
+        </Address>
         <Department>Human Resource</Department>
         <Salary>30000</Salary>
     </Information_table>
