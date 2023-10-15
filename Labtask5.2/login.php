@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
                         Password: <input type="password" name="password" value="" /> <hr>
                         <input type="checkbox" name="remember_me" id="" /> Remember Me <br>
                         <input type="submit" name="submit" value="Submit" />
-                        <a href="forgot_pw.php" align="left">Forgot Password?</a><br> 
+                        <a href="forgot_password.php" align="left">Forgot Password?</a><br> 
                     </fieldset>
                     <br>
                 <br>
