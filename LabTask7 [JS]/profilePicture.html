@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile picture</title>
+    <script>
+        function profilePicValidation() {
+            //Rule i:
+            var userIdInput = document.getElementById("User Id").value;
+            //NaN = Not a Number
+            if (userIdInput === "" || isNaN(userIdInput) || parseInt(userIdInput) <= 0) {
+                alert("UserId cannot be empty and has to be a positive number");
+                return false;
+            }
+
+            //Rule ii:
+            var pictureInput = document.getElementById("Picture").value;
+            if (pictureInput === "") {
+                alert("Please select a picture");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return profilePicValidation()">
+        <fieldset style="width: 200px;">
+            <legend>Profile Picture</legend>
+            User Id:
+            <input type="text" id="User Id" name="User Id">
+            <br>
+            Picture:
+            <input type="file" id="Picture" name="Picture">
+            <br><br>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

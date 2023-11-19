@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Dob</title>
+    <script>
+        function validateDOB() {
+            var dobInput = document.getElementsByName("dob")[0].value;
+
+            if (dobInput === "") {
+                alert("Date of Birth cannot be empty");
+                return false;
+            }
+
+            var dob = new Date(dobInput);
+            var minDate = new Date("1900-01-01");
+            var maxDate = new Date("2016-12-31");
+            if (dob < minDate || dob > maxDate) {
+                alert("Date of birth must be between 1900-01-01 and 2016-12-31");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validateDOB()">
+        <fieldset style="width: 300px;">
+            <legend>Date Of Birth</legend>
+            <input type="date" name="dob" value="" /> <br>
+        </fieldset>
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+</body>
+</html>
