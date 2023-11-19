@@ -4,15 +4,13 @@
     <title>Profile picture</title>
     <script>
         function profilePicValidation() {
-            //Rule i:
             var userIdInput = document.getElementById("User Id").value;
-            //NaN = Not a Number
+
             if (userIdInput === "" || isNaN(userIdInput) || parseInt(userIdInput) <= 0) {
                 alert("UserId cannot be empty and has to be a positive number");
                 return false;
             }
 
-            //Rule ii:
             var pictureInput = document.getElementById("Picture").value;
             if (pictureInput === "") {
                 alert("Please select a picture");
